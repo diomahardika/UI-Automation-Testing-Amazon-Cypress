@@ -31,7 +31,7 @@ const searchResultPage = {
       });
     cy.get("@expectProductPrice").should("not.be.empty");
 
-    cy.xpath(amazonLocators.selectItem).click();
+    cy.xpath(amazonLocators.selectItem).first().click();
   },
 };
 export default searchResultPage;
