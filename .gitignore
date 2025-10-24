@@ -4,6 +4,5 @@
 node_modules/
 # Cypress generated files
 images/
-cypress/reports/
 cypress/downloads/
 cypress/videos/
